@@ -1,0 +1,19 @@
+{
+    "git.ignoreLimitWarning": true,
+    "sqltools.connections": [
+        {
+            "database": "db_privinfo",
+            "driver": "MariaDB",
+            "group": "dev",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "mariadb",
+            "password": "scs123",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "scs"
+        }
+    ]
+}
