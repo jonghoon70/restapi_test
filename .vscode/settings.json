@@ -9,7 +9,7 @@
                 "authProtocol": "default"
             },
             "name": "mariadb",
-            "password": "scs123",
+            "password": "1243",
             "port": 3306,
             "previewLimit": 50,
             "server": "localhost",
