@@ -20,6 +20,7 @@ const getUser = async (req, res, next) => {
 
 const getUserList = async (req, res, next) => {
   try {
+    console.log(req.query);
     const query = 'select * from table_test';    
     const conn = await pool.getConnection();
     const rows = await conn.query(query);

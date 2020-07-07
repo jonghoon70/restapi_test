@@ -3,7 +3,7 @@ import Web3 from 'web3';
 
 const web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
 
-const get = async (req, res, next) => {
+const getBlockNumber = async (req, res, next) => {
   try {
     let result = {};
     const blockNumber = await web3.eth.getBlockNumber();
@@ -17,5 +17,5 @@ const get = async (req, res, next) => {
 }
 
 export {
-  get
+  getBlockNumber
 }
