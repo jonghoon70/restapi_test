@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./src/bin/www --exec babel-node --presets @babel/preset-env"
+    "start": "nodemon ./src/bin/www --exec babel-node --presets @babel/preset-env",
+    "test": "nodemon ./src/batch/db2bchain --exec babel-node --presets @babel/preset-env"
   },
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
@@ -15,6 +16,7 @@
     "jade": "~1.11.0",
     "mariadb": "^2.4.1",
     "morgan": "~1.9.1",
+    "request-promise": "^4.2.5",
     "web3": "^1.2.9"
   },
   "devDependencies": {
